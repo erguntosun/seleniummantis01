@@ -1,3 +1,4 @@
+/*
 package pageObjectModelTest.main;
 
 import org.junit.After;
@@ -42,4 +43,4 @@ public class MainPageTest extends WebElements {
 
 
 
-}
+}*/
