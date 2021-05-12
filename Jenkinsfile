@@ -8,7 +8,7 @@ pipeline {
     }
 
     stages {
-        stage('Execute selenium test'){
+        stage('Execute seleniummantis01'){
             steps {
                 sh 'mvn clean test'
             }
