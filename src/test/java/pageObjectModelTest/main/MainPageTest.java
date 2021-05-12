@@ -1,7 +1,8 @@
 package pageObjectModelTest.main;
 
 import org.junit.After;
-import org.junit.Test;
+//import org.junit.Test;
+import org.junit.jupiter.api.Test;
 import pageObjectModel.WebElements;
 import pageObjectModel.useCase.LoginPageCase;
 import pageObjectModel.pages.MainPage;
