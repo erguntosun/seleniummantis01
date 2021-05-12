@@ -1,3 +1,4 @@
+/*
 package pageObjectModelTest.main;
 
 import org.junit.After;
@@ -55,11 +56,14 @@ class ManageOverviewPageTest extends WebElements {
         loginPageCase.loginWebsite();
         mainPage.clickEintragErfassen();
         bugReportPage.clickBtnEintragAbsenden();
-    /*    bugReportPage.clickBtnPlus();
+    */
+/*    bugReportPage.clickBtnPlus();
         manageOverviewPage.clickRechnertyp();
         manageOverviewPage.clickBetriebssystem();
         manageOverviewPage.clickBSVersion();
         manageOverviewPage.clickBeschreibung();
-        manageOverviewPage.clickBtnProfilHinzufuegen();*/
+        manageOverviewPage.clickBtnProfilHinzufuegen();*//*
+
     }
 }
+*/
