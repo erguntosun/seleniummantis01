@@ -45,7 +45,7 @@ public abstract class Driver {
                 default:
                     WebDriverManager.chromedriver().setup();
                     ChromeOptions options = new ChromeOptions();
-                    options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200",
+                    options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1200","--remote-debugging-port=9222",
                             "--ignore-certificate-errors","--disable-dev-shm-usage","--no-sandbox","--disable-extensions","disable-infobars");
                     threadDriver.set(new ChromeDriver());
                     break;
