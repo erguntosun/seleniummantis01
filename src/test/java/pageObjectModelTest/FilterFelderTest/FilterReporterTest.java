@@ -1,3 +1,4 @@
+/*
 package pageObjectModelTest.FilterFelderTest;
 
 import org.junit.After;
@@ -39,4 +40,4 @@ public class FilterReporterTest extends  Driver {
     public void closeconnection(){
         quitDriver();
     }
-}
+}*/
