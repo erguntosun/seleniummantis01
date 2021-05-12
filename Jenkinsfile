@@ -2,7 +2,7 @@ pipeline {
 
     agent {
         docker {
-            image 'markhobson/maven-chrome:jdk-11'
+            image 'markhobson/maven-chrome:jdk-15'
             args '-v /appdata:/appdata:rw,z -w /appdata --name seleniummantis01'
         }
     }
